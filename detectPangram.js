@@ -4,6 +4,6 @@
 
 
 function isPangram(str){
-    var regex = /([a-z])(?!.*\1)/gi;
+    let regex = /([a-z])(?!.*\1)/gi;
     return (str.match(regex) || []).length === 26;
 };
